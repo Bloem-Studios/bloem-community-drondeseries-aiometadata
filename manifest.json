@@ -62,22 +62,14 @@
   "presentation": {
     "displayName": "AIOMetadata Provider",
     "summary": "Use AIOMetadata as a standalone Silo metadata provider.",
-    "descriptionMarkdown": "Connects Silo to an existing AIOMetadata configuration. Supports movie and series search, full metadata, people, ratings, and artwork.",
+    "descriptionMarkdown": "Connects Silo to an existing AIOMetadata configuration. Supports movie and series search, full metadata, people, ratings, and artwork.\n\nCommunity plugin by drondeseries (https://github.com/drondeseries/silo-plugin-aiometadata), built for Bloem on the Bloem plugin SDK.",
     "setupMarkdown": "First configure AIOMetadata and copy its complete Stremio addon URL (ending in manifest.json is accepted). In Silo, install this plugin, open its settings, paste that URL into Addon URL, optionally enter an API credential, save, then enable AIOMetadata for the desired movie and series libraries. Full instructions and troubleshooting are in the project README.",
     "homepageUrl": "https://github.com/drondeseries/silo-plugin-aiometadata",
-    "sourceUrl": "https://github.com/drondeseries/silo-plugin-aiometadata",
-    "supportUrl": "https://github.com/drondeseries/silo-plugin-aiometadata/issues",
-    "changelogUrl": "https://github.com/drondeseries/silo-plugin-aiometadata/releases",
+    "sourceUrl": "https://github.com/Bloem-Studios/bloem-community-drondeseries-aiometadata",
+    "supportUrl": "https://github.com/Bloem-Studios/bloem-community-drondeseries-aiometadata/issues",
+    "changelogUrl": "https://github.com/Bloem-Studios/bloem-community-drondeseries-aiometadata/releases",
     "publisherName": "drondeseries",
     "publisherUrl": "https://github.com/drondeseries",
-    "licenseSpdx": "NOASSERTION",
-    "display_name": "silo-plugin-aiometadata",
-    "publisher_name": "drondeseries",
-    "publisher_url": "https://github.com/drondeseries",
-    "homepage_url": "https://github.com/drondeseries/silo-plugin-aiometadata",
-    "source_url": "https://github.com/Bloem-Studios/bloem-community-drondeseries-aiometadata",
-    "support_url": "https://github.com/Bloem-Studios/bloem-community-drondeseries-aiometadata/issues",
-    "changelog_url": "https://github.com/Bloem-Studios/bloem-community-drondeseries-aiometadata/releases",
-    "description_markdown": "Use AIOMetadata as a standalone Silo metadata provider.\n\nCommunity plugin by drondeseries (https://github.com/drondeseries/silo-plugin-aiometadata), built for Bloem on the Bloem plugin SDK."
+    "licenseSpdx": "NOASSERTION"
   }
 }
