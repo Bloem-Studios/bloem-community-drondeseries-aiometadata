@@ -5,6 +5,10 @@
   "siloApiVersion": "v1",
   "supportedPlatforms": [
     {
+      "os": "darwin",
+      "arch": "arm64"
+    },
+    {
       "os": "linux",
       "arch": "amd64"
     },
