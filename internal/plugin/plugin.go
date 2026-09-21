@@ -13,13 +13,13 @@ import (
 	"sync"
 	"time"
 
-	pluginv1 "github.com/Silo-Server/silo-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
-	"github.com/Silo-Server/silo-plugin-sdk/pkg/pluginsdk/runtimedefault"
+	pluginv1 "github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginproto/silo/plugin/v1"
+	"github.com/Bloem-Studios/bloem-plugin-sdk/pkg/pluginsdk/runtimedefault"
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/protobuf/types/known/structpb"
 )
 
-const userAgent = "silo-plugin-aiometadata/0.1"
+const userAgent = "github.com/Bloem-Studios/bloem-community-drondeseries-aiometadata/0.1"
 
 type Plugin struct {
 	runtimedefault.Server

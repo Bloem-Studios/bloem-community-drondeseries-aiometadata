@@ -1,3 +1,12 @@
+## Bloem community build
+
+This is Bloem's community build of [drondeseries/silo-plugin-aiometadata](https://github.com/drondeseries/silo-plugin-aiometadata) by **drondeseries**
+(contributors: drondeseries). It is ported to the Bloem plugin SDK and listed in the
+Bloem community plugin catalog. All credit for the plugin goes to its author; please
+report plugin behavior issues upstream. See [NOTICE](NOTICE) for provenance.
+
+---
+
 # Silo AIOMetadata Provider
 
 Standalone Silo `metadata_provider.v1` plugin backed by an existing [AIOMetadata](https://github.com/cedya77/aiometadata) configuration.
